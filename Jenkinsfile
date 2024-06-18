@@ -1,6 +1,6 @@
 pipeline     // jenkinfile always start with pipeline
 {
-    agent if any   // agent any means - any available execcutor
+    agent any   // agent any means - any available execcuto
     stages         // it contains all stage
     {
 

@@ -6,7 +6,7 @@ pipeline     // jenkinfile always start with pipeline
 
 stage  ("pre build")      // it ttells what to do
 {steps { sh "echo hi jenkins"   }   }    // sh- execute the shell script / command
- stage {build}
+ stage {"build"}
  {steps {sh "echo hi build"}}
  stage ("post build")
  {steps {sh "test cases"}}
